@@ -311,7 +311,6 @@ export const UserManager: React.FC<UserManagerProps> = ({ currentUser, users, on
                                 required
                                 type="text" 
                                 className="w-full border rounded p-2"
-                                placeholder="مثال: فوج المنارة"
                                 value={formData.unitName}
                                 onChange={e => setFormData({...formData, unitName: e.target.value})}
                             />
